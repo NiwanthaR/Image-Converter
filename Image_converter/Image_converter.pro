@@ -20,4 +20,5 @@ HEADERS  += mainwindow.h
 FORMS    += mainwindow.ui
 
 RESOURCES += \
-    mainlogo.qrc
+    mainlogo.qrc \
+    button_icon.qrc

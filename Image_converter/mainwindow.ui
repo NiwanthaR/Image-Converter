@@ -59,9 +59,9 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>270</y>
-      <width>431</width>
+      <x>51</x>
+      <y>261</y>
+      <width>441</width>
       <height>101</height>
      </rect>
     </property>
@@ -82,6 +82,11 @@
      </item>
      <item>
       <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
        <item>
         <property name="text">
          <string>PNG</string>
@@ -116,8 +121,20 @@
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_2">
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+          </font>
+         </property>
          <property name="text">
           <string>Convert</string>
+         </property>
+         <property name="icon">
+          <iconset resource="button_icon.qrc">
+           <normaloff>:/new/icon/check.png</normaloff>:/new/icon/check.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
          </property>
         </widget>
        </item>
@@ -162,6 +179,7 @@
  <layoutdefault spacing="6" margin="11"/>
  <resources>
   <include location="mainlogo.qrc"/>
+  <include location="button_icon.qrc"/>
  </resources>
  <connections/>
 </ui>

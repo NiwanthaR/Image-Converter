@@ -48,7 +48,7 @@ void MainWindow::on_pushButton_2_clicked()
             else if(format == 2){
                 newFilename += ".bmp";
             }
-            qDebug() <<newFilename <<format;
+            qDebug() <<newFilename<<format;
                     if(image.save(newFilename,0,-1)){
                 QMessageBox::information(this,"Success","Image Converte Successfully");
             } else{

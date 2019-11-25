@@ -72,7 +72,7 @@ public:
         label_2->setAlignment(Qt::AlignCenter);
         widget = new QWidget(centralWidget);
         widget->setObjectName(QStringLiteral("widget"));
-        widget->setGeometry(QRect(50, 270, 431, 101));
+        widget->setGeometry(QRect(51, 261, 441, 101));
         verticalLayout = new QVBoxLayout(widget);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -96,6 +96,9 @@ public:
 
         comboBox = new QComboBox(widget);
         comboBox->setObjectName(QStringLiteral("comboBox"));
+        QFont font1;
+        font1.setPointSize(15);
+        comboBox->setFont(font1);
 
         verticalLayout->addWidget(comboBox);
 
@@ -108,6 +111,11 @@ public:
 
         pushButton_2 = new QPushButton(widget);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setFont(font1);
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/new/icon/check.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton_2->setIcon(icon);
+        pushButton_2->setCheckable(false);
 
         horizontalLayout_2->addWidget(pushButton_2);
 
