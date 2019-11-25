@@ -147,7 +147,7 @@ public:
          << QApplication::translate("MainWindow", "JPEG", Q_NULLPTR)
          << QApplication::translate("MainWindow", "BMP", Q_NULLPTR)
         );
-        pushButton_2->setText(QApplication::translate("MainWindow", "PushButton", Q_NULLPTR));
+        pushButton_2->setText(QApplication::translate("MainWindow", "Convert", Q_NULLPTR));
     } // retranslateUi
 
 };
