@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/logo">
+        <file>release/logo.png</file>
+        <file>logo2.png</file>
+        <file>logo3.png</file>
+    </qresource>
+</RCC>
